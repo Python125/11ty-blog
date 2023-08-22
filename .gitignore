@@ -14,3 +14,6 @@ css
 
 # specifics of vs code
 .vscode
+
+#Added dummy html file to clean code for njk files
+dummy.html
