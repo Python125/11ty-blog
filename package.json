@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "11ty": "@11ty/eleventy",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   },
   "keywords": [],
   "author": "",
