@@ -35,8 +35,8 @@
 }
 
 /* //////////////////////
-  RESET - source: https://piccalil.li/blog/a-modern-css-reset
-  /////////////////////// */
+    RESET - source: https://piccalil.li/blog/a-modern-css-reset
+    /////////////////////// */
 
 /* Box sizing rules */
 *,
@@ -116,8 +116,8 @@ select {
 }
 
 /* //////////////////////
-  General styling
-  /////////////////////// */
+    General styling
+    /////////////////////// */
 
 body {
   font-family: var(--ff-body);
@@ -142,15 +142,13 @@ section,
   padding: min(10vh, 10em) 0;
 }
 
-
-
 /* //////////////////////
-  Utility Classes
-  /////////////////////// */
+    Utility Classes
+    /////////////////////// */
 
 /* select all direct childen of .flow
-   and add margin to the top for proper
-   spacing */
+     and add margin to the top for proper
+     spacing */
 
 .flow > *:where(:not(:first-child)) {
   margin-top: var(--flow-spacer, 1em);
@@ -191,10 +189,9 @@ section,
   font-size: var(--fs-600);
 }
 
-
 /* //////////////////////
-  Header
-  /////////////////////// */
+    Header
+    /////////////////////// */
 
 .page-header {
   padding: 2em 0;
@@ -222,8 +219,8 @@ section,
 }
 
 /* //////////////////////
-  Footer
-  /////////////////////// */
+    Footer
+    /////////////////////// */
 
 .site-footer {
   --logo-color: currentColor;
@@ -234,8 +231,8 @@ section,
 }
 
 /* //////////////////////
-  Homepage
-  /////////////////////// */
+    Homepage
+    /////////////////////// */
 
 .hero > div {
   display: grid;
@@ -267,22 +264,22 @@ section,
 }
 
 /* //////////////////////
-  Individual article page
-  /////////////////////// */
+    Individual article page
+    /////////////////////// */
 
-  .main-article {
-    margin-bottom: 3rem;
-  }
+.main-article {
+  margin-bottom: 3rem;
+}
 
-  .main-article__figure figcaption {
-    margin: 1rem 0;
-    font-size: var(--fs-300);
-    opacity: .9;
-  }
+.main-article__figure figcaption {
+  margin: 1rem 0;
+  font-size: var(--fs-300);
+  opacity: 0.9;
+}
 
 /* //////////////////////
-  Article snippets
-  /////////////////////// */
+    Article snippets
+    /////////////////////// */
 
 .snippet {
   display: grid;
@@ -330,7 +327,7 @@ section,
 .snippet__title a:hover,
 .snippet__title a:focus {
   color: var(--clr-primary-500);
-} 
+}
 
 @media (min-width: 45em) {
   .snippet {
@@ -370,7 +367,7 @@ section,
 .btn--primary:hover,
 .btn--primary:focus {
   background: var(--clr-primary-500);
-  border-color: var(--clr-primary-500); 
+  border-color: var(--clr-primary-500);
 }
 
 .btn--neutral {
