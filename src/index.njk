@@ -2,34 +2,61 @@
 title: Home Page
 layout: 'base.njk'
 ---
-      
-<section class="hero">
-  <div class="container flow">
-      <div class="hero__content flow">
-        <h1 class="section-title">Welcome to my blog!</h1>
-        <p>I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
-        <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
-        <div class="flex-group">
-          <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
-          <a href="./blog" class="btn btn--neutral">Most recent articles</a>
-        </div>
-      </div>
-      <div>
-        <img src="//unsplash.it/510" alt="" class="hero__image">
-      </div>
-  </div>
-</section>
+<body class="bg-[#fff2bd]">
+  <h1 class="text-center text-4xl m-5">Welcome to Andrew's Film Blog - Your Ultimate Cinematic Odyssey!</h1>
+    <p class="text-lg m-2">
+      Are you ready to embark on an exhilarating journey through the mesmerizing
+      world of cinema? Here, I am passionate about all things movies, from the
+      golden classics that have stood the test of time to the latest
+      blockbusters that have taken the world by storm. My mission is simple: to
+      be your go-to destination for exploring, analyzing, and celebrating the
+      magic of the silver screen.
+    </p>
 
-<section id="featured-articles" class="featured-articles">
-  <div class="container flow">
-    <h2 class="section-title text-center ">Featured articles</h2>
-    <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
-    <ul role="list" class="articles__list flow">
+  <h2 class="section-title text-3xl text-center font-bold">What Awaits You:</h2>
+    <img class="mx-auto" src="https://stedwardedge.com/wp-content/uploads/2018/03/Winter-Movie-Review.png" width="350px">
+    <p class="text-lg m-2">
+      The Movie Reviews page is a haven for film enthusiasts seeking insightful,
+      thought-provoking analyses of the latest releases. We're not just about
+      stars and ratings - we're here to dissect the artistry, storytelling, and
+      nuances that make each film a unique experience. Plus, each movie review
+      has its own dedicated space, so you can dive deep into our thoughts and
+      join the conversation.
+    </p>
 
-      {%- for post in collections.featured | reverse -%}
-        {% include 'article-snippet.njk' %}
-      {%- endfor %} 
-    
-    </ul>
-  </div>
-</section>
+  <h3 class="text-2xl text-center font-bold">Book-to-Movie Comparisons</h3>
+    <img class="mx-auto" src="https://adult.sewickleylibrary.org/wp-content/uploads/2020/09/books-to-movies.png" width="550px">
+    <p class="text-lg m-2">
+      Ever wondered how your favorite books come to life on the big screen? Our
+      Book-to-Movie Comparisons page is a captivating exploration of the
+      intricate dance between literature and film. Join us as we uncover the
+      parallels, the deviations, and the sparks of creativity that emerge when
+      stories make the transition from page to reel.
+    </p>
+
+  <h3 class="text-2xl text-center font-bold">Must-See Movies</h3>
+    <img class="mx-auto" src="https://hips.hearstapps.com/hmg-prod/images/hbz-classic-movies-00-index-new-1591823486.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" width="650px">
+    <p class="text-lg m-2">
+      Prepare to be captivated by my curated list of Must-See Movies. These are
+      the films that have left an indelible mark on cinematic history and have
+      earned a place on my collective watchlists. Whether you're a seasoned
+      cinephile or just starting your cinematic journey, these movies are an
+      essential part of your film education.
+    </p>      
+
+    <p class="text-lg m-2">
+      So, grab your popcorn, dim the lights, and join us as we unravel the
+      tapestry of cinema. Whether you're a dedicated moviegoer or a casual
+      viewer, Andrew's Film Blog promises to be your companion in exploring the
+      wondrous world of movies. Let's celebrate the magic together!
+    </p>
+
+  <ul role="list" class="articles__list flow text-lg m-2 leading-8">
+    <div class="flex-group">
+      <a href="./blog" class="btn btn--neutral">Most recent articles</a>
+    </div>
+    {%- for post in collections.featured | reverse -%}
+      {% include 'article-snippet.njk' %}
+    {%- endfor %}
+  </ul>
+</body>
