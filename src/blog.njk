@@ -2,8 +2,8 @@
 title: Blog
 layout: 'base.njk'
 ---
-
-<div class="text-xl leading-9">
+<body class="bg-green-300">
+  <div class="text-xl leading-9">
 <h1 class="text-3xl text-center">Recent articles</h1>
 <ul role="list" class="articles__list flow ">
   {%- for post in collections.post | reverse -%}
@@ -11,3 +11,4 @@ layout: 'base.njk'
   {%- endfor %}
 </ul>
 </div>
+</body>
