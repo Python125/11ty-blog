@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/style.css");
+  eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("./src/input.css");
   eleventyConfig.addPassthroughCopy("tailwind.config.js");
   eleventyConfig.addFilter("postDate", (dateObj) => {

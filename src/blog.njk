@@ -2,9 +2,9 @@
 title: Blog
 layout: 'base.njk'
 ---
-<body class="bg-green-300">
+<body class="bg-[url('/images/movie.jpg')] text-white">
   <div class="text-xl leading-9">
-<h1 class="text-3xl text-center">Recent articles</h1>
+<h1 class="text-3xl text-center mt-20">Recent articles</h1>
 <ul role="list" class="articles__list flow ">
   {%- for post in collections.post | reverse -%}
     {% include 'article-snippet.njk' %}
