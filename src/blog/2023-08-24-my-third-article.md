@@ -10,7 +10,7 @@ description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendi
 <p class="text-2xl m-4">Below, you will find reviews of movies that I believe everyone should see at least once in their lifetime.</p>
 
 <h2 class="text-2xl m-2 font-bold text-center">Monty Python's Life of Brian</h2>
-<img class="mx-auto m-2" src="https://m.media-amazon.com/images/I/51dqIsDjuiL._AC_UF894,1000_QL80_.jpg" width="250px" />
+<img class="mx-auto m-2" src="/images/brian.png" width="250px" />
 
 <p class="m-5 text-xl"><i>Monty Python's Life of Brian</i> is a 1979 is a 1979 British comedy film starring and written by the comedy group Monty Python (Graham Chapman, John Cleese, Terry Gilliam, Eric Idle, Terry Jones and Michael Palin). It was directed by Jones. The film tells the story of Brian Cohen (played by Chapman), a young Jewish-Roman man who is born on the same day as—and next door to—Jesus, and is subsequently mistaken for the Messiah.</p>
 

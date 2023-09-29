@@ -96,9 +96,9 @@ Have you ever felt anticipation for a book-to-movie adaptation, only to find you
 
 <h1 class="text-3xl text-center font-bold mb-2">Harry Potter and the Order of the Phoenix</h1>
 
-<img class="mx-auto m-4" src="https://pictures.abebooks.com/isbn/9780439139595-us.jpg" width="250px" />
+<img class="mx-auto m-4" src="/images/HP4-book.png" width="250px" />
 
-<img class="mx-auto m-4" src="https://i.ebayimg.com/images/g/xIEAAOSwHdJiOAJI/s-l1600.jpg" width="250px" />
+<img class="mx-auto m-4" src="/images/HP4-movie.png" width="250px" />
 
 <h2 class="text-4xl text-center font-bold">Book vs Movie:</h2>
 
@@ -118,4 +118,4 @@ Have you ever felt anticipation for a book-to-movie adaptation, only to find you
 
 <p class="text-xl m-2">Some of the challenges in the Triwizard Tournament are condensed or altered in the movie for pacing and visual impact.</p>
 <br>
-<p class="text-xl m-2">These are just a few examples of the differences between the "Harry Potter and the Goblet of Fire" novel and film. A more extensive list will be created when I have learned how to create separate pages for each book vs movie.
+<!--p class="text-xl m-2">These are just a few examples of the differences between the "Harry Potter and the Goblet of Fire" novel and film. A more extensive list will be created when I have learned how to create separate pages for each book vs movie.</p-->
