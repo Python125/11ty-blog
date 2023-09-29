@@ -1,7 +1,7 @@
 ---
 title: Movie Reviews
 author: Andrew Novosel
-date: 2023-08-24
+date: 2023-09-29
 ---
 
 <h1 class="text-4xl font-mono text-center">Movie Reviews</h1>

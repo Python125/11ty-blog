@@ -1,7 +1,7 @@
 ---
 title: Book vs. Movie
 author: Andrew Novosel
-date: 2023-08-24
+date: 2023-09-29
 ---
 
 <h1 class="text-5xl font-bold text-center">Book vs. Movie</h1>

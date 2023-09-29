@@ -1,7 +1,7 @@
 ---
 title: About Me
 author: Andrew Novosel
-date: 2023-08-24
+date: 2023-09-29
 ---
 
 <h1 class="text-4xl text-center font-bold">My Cinematic Journey</h1>
