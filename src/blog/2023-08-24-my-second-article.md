@@ -3,7 +3,6 @@ title: Book vs. Movie
 author: Andrew Novosel
 date: 2023-08-24
 tags: ['post', 'featured']
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
 
 <h1 class="text-5xl font-bold text-center">Book vs. Movie</h1>
