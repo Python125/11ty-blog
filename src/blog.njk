@@ -4,7 +4,7 @@ layout: 'base.njk'
 ---
 <body class="bg-[url('/images/movie.jpg')] text-white">
   <div class="text-xl leading-9 mt-20">
-<h1 class="text-3xl text-center">Recent articles</h1>
+<h1 class="text-3xl text-center">Recent Articles</h1>
 <ul role="list" class="articles__list flow ml-3">
   {%- for post in collections.post | reverse -%}
     {% include 'article-snippet.njk' %}
