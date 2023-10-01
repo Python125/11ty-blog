@@ -1,6 +1,7 @@
 ---
 title: Life of Brian
 author: Andrew Novosel
+tags: ["post", "featured"]
 ---
 
 <h2 class="text-2xl m-2 font-bold text-center">Monty Python's Life of Brian</h2>

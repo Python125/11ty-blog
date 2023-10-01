@@ -2,7 +2,6 @@
 title: Must-See Movies
 author: Andrew Novosel
 date: 2023-10-02
-tags: ["post", "featured"]
 ---
 
 <h1 class="text-4xl font-mono text-center">Must-See Movies</h1>

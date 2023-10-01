@@ -2,7 +2,6 @@
 title: Page To Screen
 author: Andrew Novosel
 date: 2023-10-02
-tags: ["post", "featured"]
 ---
 
 <h1 class="text-5xl font-bold text-center">Page To Screen</h1>
