@@ -119,3 +119,14 @@ Have you ever felt anticipation for a book-to-movie adaptation, only to find you
 <p class="text-xl m-2">Some of the challenges in the Triwizard Tournament are condensed or altered in the movie for pacing and visual impact.</p>
 <br>
 <!--p class="text-xl m-2">These are just a few examples of the differences between the "Harry Potter and the Goblet of Fire" novel and film. A more extensive list will be created when I have learned how to create separate pages for each book vs movie.</p-->
+
+<section id="featured-articles" class="featured-articles">
+  <div class="container flow">
+    <h2 class="section-title">Recent articles</h2>
+    <ul role="list" class="articles__list flow text-lg m-2 leading-8">
+      {%- for post in collections.featured | reverse -%}
+        {% include 'article-snippet.njk' %}
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

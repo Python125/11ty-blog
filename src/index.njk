@@ -39,17 +39,4 @@ layout: 'base.njk'
       viewer, Andrew's Film Blog promises to be your companion in exploring the
       wondrous world of movies. Let's celebrate the magic together!
     </p>
-
-<section id="featured-articles" class="featured-articles">
-  <div class="container flow">
-    <h2 class="section-title">Recent articles</h2>
-    <ul role="list" class="articles__list flow text-lg m-2 leading-8">
-    <div class="flex-group">
-    </div>
-    {%- for post in collections.featured | reverse -%}
-      {% include 'article-snippet.njk' %}
-    {%- endfor %}
-  </ul>
-  </div>
-</section>
 </body>
