@@ -1,10 +1,10 @@
 ---
-title: Book vs. Movie
+title: Page To Screen
 author: Andrew Novosel
-date: 2023-09-29
+image: /images/page-to-screen.png
 ---
 
-<h1 class="text-5xl font-bold text-center">Book vs. Movie</h1>
+<h1 class="text-5xl font-bold text-center">Page To Screen</h1>
 <p class="text-center m-5 text-2xl">
 Have you ever felt anticipation for a book-to-movie adaptation, only to find yourself disappointed by how the movie strays from the author's original intent? If so, you're not alone. This page is dedicated to examining the changes that movies often make when adapting from books. Join me as we explore these adaptations and the shifts that can occur between the written word and the silver screen.
 </p>
