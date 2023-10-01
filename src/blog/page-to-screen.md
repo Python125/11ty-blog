@@ -2,7 +2,6 @@
 title: Page To Screen
 author: Andrew Novosel
 date: 2023-10-02
-image: /images/page-to-screen.png
 tags: ["post", "featured"]
 ---
 
@@ -122,7 +121,7 @@ Have you ever felt anticipation for a book-to-movie adaptation, only to find you
 
 <section id="featured-articles" class="featured-articles">
   <div class="container flow">
-    <h2 class="section-title">Recent articles</h2>
+    <h2 class="section-title text-2xl">Recent articles</h2>
     <ul role="list" class="articles__list flow text-lg m-2 leading-8">
       {%- for post in collections.featured | reverse -%}
         {% include 'article-snippet.njk' %}

@@ -3,7 +3,6 @@ title: Must-See Movies
 author: Andrew Novosel
 date: 2023-10-02
 tags: ["post", "featured"]
-image: /images/must-see-movies.png
 ---
 
 <h1 class="text-4xl font-mono text-center">Must-See Movies</h1>
@@ -11,7 +10,7 @@ image: /images/must-see-movies.png
 
 <section id="featured-articles" class="featured-articles">
   <div class="container flow">
-    <h2 class="section-title">Recent articles</h2>
+    <h2 class="section-title text-2xl">Recent articles</h2>
     <ul role="list" class="articles__list flow text-lg m-2 leading-8">
       {%- for post in collections.featured | reverse -%}
         {% include 'article-snippet.njk' %}
