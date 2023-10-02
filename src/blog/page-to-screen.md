@@ -1,7 +1,6 @@
 ---
 title: Page To Screen
 author: Andrew Novosel
-date: 2023-10-02
 ---
 
 <body class="bg-orange-100">
@@ -20,8 +19,9 @@ date: 2023-10-02
     <div class="container flow">
       <h2 class="section-title text-2xl text-center">Recent articles</h2>
       <ul role="list" class="articles__list flow text-lg m-5 leading-8">
-        {%- for post in collections.book | reverse -%} {% include
-        'article-snippet.njk' %} {%- endfor %}
+        {%- for post in collections.book | reverse -%}
+          {% include 'article-snippet.njk' %}
+        {%- endfor %}
       </ul>
     </div>
   </section>
