@@ -16,7 +16,7 @@ date: 2023-10-02
 
   <section id="featured-articles" class="featured-articles">
     <div class="container flow">
-      <h2 class="section-title text-2xl text-center">Recent articles</h2>
+      <h2 class="section-title text-2xl text-center">Recent articles</h2> 
       <ul role="list" class="articles__list flow text-xl m-5 leading-8">
         {%- for post in collections.movies | reverse -%} {% include
         'article-snippet.njk' %} {%- endfor %}
