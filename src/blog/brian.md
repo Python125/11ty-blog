@@ -8,7 +8,7 @@ tags: ["post", "movies"]
   <h2 class="text-2xl m-2 font-bold text-center">
     Monty Python's Life of Brian
   </h2>
-  <img class="mx-auto m-2" src="/images/brian.png" width="250px" />
+  <img class="mx-auto m-2" src="/images/brian.png" width="300px" />
 
   <p class="m-5 text-xl">
     <i>Monty Python's Life of Brian</i> is a 1979 is a 1979 British comedy film
