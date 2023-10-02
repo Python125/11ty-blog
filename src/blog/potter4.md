@@ -3,6 +3,7 @@ title: Harry Potter and the Goblet of Fire
 author: Andrew Novosel
 tags: ["post", "book"]
 ---
+
 <!--p>
       “Harry! Did you put your name in the Goblet of Fire?!” asked Dumbledore
       angrily, as he ran towards Harry and grabbed him, shoving him back to the
@@ -86,24 +87,52 @@ tags: ["post", "book"]
       leave with Rick. Yeah. Not the same movie. That's what I'm talking about.
 </p-->
 
-<h1 class="text-3xl text-center font-bold mb-2">Harry Potter and the Goblet of Fire</h1>
+<body class="bg-lime-300">
+  <h1 class="text-3xl text-center font-bold mb-2">
+    Harry Potter and the Goblet of Fire
+  </h1>
 
-<img class="mx-auto m-4" src="/images/HP4-book.png" width="250px" />
+  <img class="mx-auto m-4" src="/images/HP4-book.png" width="250px" />
 
-<img class="mx-auto m-4" src="/images/HP4-movie.png" width="250px" />
+  <img class="mx-auto m-4" src="/images/HP4-movie.png" width="250px" />
 
-<h2 class="text-4xl text-center font-bold">Differences:</h2>
+  <h2 class="text-4xl text-center font-bold">Differences:</h2>
 
-<h3 class="text-2xl m-2 font-bold">Barty Crouch Jr. and the Pensieve Explanation</h3>
-<p class="text-xl m-2"> In the book, there is a detailed explanation by Barty Crouch Jr. in the Pensieve about his actions, his father, and his impersonation of Mad-Eye Moody. This helps clarify some plot points. The movie omits many details from this explanation, leading to a less nuanced understanding of Barty Crouch Jr.'s motivations.</p>
+  <h3 class="text-2xl m-2 font-bold">
+    Barty Crouch Jr. and the Pensieve Explanation
+  </h3>
+  <p class="text-xl m-2">
+    In the book, there is a detailed explanation by Barty Crouch Jr. in the
+    Pensieve about his actions, his father, and his impersonation of Mad-Eye
+    Moody. This helps clarify some plot points. The movie omits many details
+    from this explanation, leading to a less nuanced understanding of Barty
+    Crouch Jr.'s motivations.
+  </p>
 
-<h3 class="text-2xl m-2 font-bold">S.P.E.W. (Society for the Promotion of Elfish Welfare)</h3>
-<p class="text-xl m-2">Hermione's efforts to free house-elves and her creation of S.P.E.W. are more extensively explored in the book. The movie significantly reduces the focus on S.P.E.W., resulting in less character development for Hermione and a reduced exploration of house-elf issues.</p>
+  <h3 class="text-2xl m-2 font-bold">
+    S.P.E.W. (Society for the Promotion of Elfish Welfare)
+  </h3>
+  <p class="text-xl m-2">
+    Hermione's efforts to free house-elves and her creation of S.P.E.W. are more
+    extensively explored in the book. The movie significantly reduces the focus
+    on S.P.E.W., resulting in less character development for Hermione and a
+    reduced exploration of house-elf issues.
+  </p>
 
-<h3 class="text-2xl m-2 font-bold">Ludo Bagman and Winky</h3>
-<p class="text-xl m-2">Ludo Bagman's role in the Triwizard Tournament and his connections to the Weasley twins' bet are more emphasized in the book. The character of Winky the house-elf, who is dismissed by Crouch and plays a role in the Barty Crouch Jr. reveal, is mostly absent from the movie.</p>
+  <h3 class="text-2xl m-2 font-bold">Ludo Bagman and Winky</h3>
+  <p class="text-xl m-2">
+    Ludo Bagman's role in the Triwizard Tournament and his connections to the
+    Weasley twins' bet are more emphasized in the book. The character of Winky
+    the house-elf, who is dismissed by Crouch and plays a role in the Barty
+    Crouch Jr. reveal, is mostly absent from the movie.
+  </p>
 
-<h3 class="text-2xl m-2 font-bold">Triwizard Tasks</h3>
-<p class="text-xl m-2">Some of the challenges in the Triwizard Tournament are condensed or altered in the movie for pacing and visual impact.</p>
-<br>
-<!--p class="text-xl m-2">These are just a few examples of the differences between the "Harry Potter and the Goblet of Fire" novel and film. A more extensive list will be created when I have learned how to create separate pages for each book vs movie.</p-->
+  <h3 class="text-2xl m-2 font-bold">Triwizard Tasks</h3>
+  <p class="text-xl m-2">
+    Some of the challenges in the Triwizard Tournament are condensed or altered
+    in the movie for pacing and visual impact.
+  </p>
+  <br />
+
+  <!--p class="text-xl m-2">These are just a few examples of the differences between the "Harry Potter and the Goblet of Fire" novel and film. A more extensive list will be created when I have learned how to create separate pages for each book vs movie.</p-->
+</body>
