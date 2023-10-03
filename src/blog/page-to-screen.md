@@ -19,7 +19,7 @@ author: Andrew Novosel
     <div class="container flow">
       <h2 class="section-title text-2xl text-center">Recent articles</h2>
       <ul role="list" class="articles__list flow text-lg m-5 leading-8">
-        {%- for post in collections.book | reverse -%}
+        {%- for post in collections.book -%}
           {% include 'article-snippet.njk' %}
         {%- endfor %}
       </ul>

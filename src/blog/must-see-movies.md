@@ -15,10 +15,10 @@ author: Andrew Novosel
 
   <section id="featured-articles" class="featured-articles">
     <div class="container flow">
-      <h2 class="section-title text-2xl text-center">Recent articles</h2> 
+      <h2 class="section-title text-2xl text-center">Recent articles</h2>
       <ul role="list" class="articles__list flow text-xl m-5 leading-8">
-        {%- for post in collections.movies | reverse -%} 
-          {% include 'article-snippet.njk' %} 
+        {%- for post in collections.movies -%}
+          {% include 'article-snippet.njk' %}
         {%- endfor %}
       </ul>
     </div>
