@@ -4,7 +4,7 @@ author: Andrew Novosel
 date: 2023-09-29
 ---
 
-<body class="bg-red-300">
+<body class="bg-green-300">
   <h1 class="text-4xl text-center font-bold">My Cinematic Journey</h1>
 
   <p class="text-lg m-5">
